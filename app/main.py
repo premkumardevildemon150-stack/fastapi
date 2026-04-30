@@ -8,3 +8,6 @@ app.include_router(user.router)
 @app.get("/")
 def root():
     return {"message": "Welcome to FastAPI Project"}
+
+
+print("fdfaq")
